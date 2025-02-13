@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Will You Be My Valentine?</title>
+  <!-- Romantic Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <!-- Envelope Section -->
+    <div id="envelope-section">
+      <div id="envelope-img-container">
+        <img src="V_images/envelope_closed.png" alt="Envelope" id="envelope-img" />
+      </div>
+      <div id="envelope-text">Click the envelope, please!!</div>
+    </div>
+
+    <!-- Paper Section that appears after the envelope is clicked -->
+    <div id="paper" class="hidden">
+      <div id="question-mode">
+        <div id="gif-container">
+          <div id="question-gif"></div>
+        </div>
+        <div id="paper-note">Will you be my valentine?</div>
+        <div id="buttons">
+          <button id="yes-button">Yes</button>
+          <button id="no-button">No</button>
+        </div>
+      </div>
+      <div id="love-mode" class="hidden">
+        <div id="love-message">I love you Yao!</div>
+        <div id="love-gif">
+          <div class="tenor-gif-embed" data-postid="23507491" data-share-method="host" data-aspect-ratio="0.81875" data-width="300">
+            <a href="https://tenor.com/view/tantrum-kicking-gif-23507491">Tantrum Kicking GIF</a>
+            from <a href="https://tenor.com/search/tantrum-gifs">Tantrum GIFs</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Extra embeds container: extra GIFs appear here -->
+  <div id="extra-embeds-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
